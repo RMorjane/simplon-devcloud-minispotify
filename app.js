@@ -8,14 +8,14 @@ console.log(main)
 let html_music = ""
 
 mySpotify.forEach(function(item){
-    
+
     console.log(item.id)
 
-    html_music += `<div class='music'>
-                            <a href=${item.url}>
-                                    <img src='./playlist.png' alt='play music'>
+    html_music += `<div class="music">
+                            <a href="${item.url}">
+                                    <img src="./playlist.png" alt="play music">
                             </a>
-                            <div class=info>
+                            <div class="info">
                                     <h2>${item.title}</h2>
                                     <h2>${item.artist}</h2>
                                     <h2>${item.description}</h2>
