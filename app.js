@@ -18,7 +18,12 @@ mySpotify.forEach(function(item){
                             <div class="info">
                                     <h2>${item.title}</h2>
                                     <h2>${item.artist}</h2>
-                                    <h2>${item.description}</h2>
+                                    <h2>${item.publish_date}</h2>
+                            </div>
+                            <div class="play">
+                                <audio src=${item.url} controls>
+                                        Votre navigateur ne semble pas supporter ce fichier
+                                </audio>
                             </div>
                     </div>`
 })

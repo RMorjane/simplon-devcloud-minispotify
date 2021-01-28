@@ -1,26 +1,23 @@
 export const mySpotify = [
     {
-        id: 1,
-        url: "https://www.deezer.com/fr/album/8666939",
-        title: "Délivrance",
-        artist: "François Breut",
-        description: "Chanson de la délivrance"
+        url: "./mp3/ForrestKeller-NewBeginning.mp3",
+        title: "New Beginning",
+        artist: "Forrest Keller",
+        publish_date: "18/01/2021"
     }
     ,
     {
-        id: 2,
-        url: "https://www.deezer.com/fr/artist/816082",
-        title: "Experiment",
-        artist: "Matt Dj",
-        description: "Chanson de l'expérimentation"
+        url: "./mp3/Candy_Says_Not_Kings.mp3",
+        title: "Not Kings",
+        artist: "Candy Says",
+        publish_date: "25/01/2021"
     }
     ,
     {
-        id: 3,
-        url: "https://www.deezer.com/fr/album/9584810",
-        title: "Light Frames",
-        artist: "Sergio Munafo",
-        description: "Chanson de la lumière"
+        url: "./mp3/Onycs-Shine.mp3",
+        title: "Shine",
+        artist: "Onycs",
+        publish_date: "11/01/2021"
     }
 ]
 
